@@ -9,14 +9,15 @@ npm run build
 # 进入构建输出目录
 cd dist
 
-# 如果你要部署到自定义域名
-# echo 'www.example.com' > CNAME
+# 删除旧的 git 仓库（如果存在）
+rm -rf .git
 
+# 初始化新的 git 仓库
 git init
 git add -A
 git commit -m 'deploy'
 
-# 如果你要部署在 https://<USERNAME>.github.io/<REPO>
-git push git@github.com:answerBall9527/english-tool.git main:gh-pages
+# 替换下面的 USERNAME 和 REPO 为你的 GitHub 用户名和仓库名
+git push -f git@github.com:answerBai1995/english-tool.git main:gh-pages
 
 cd -

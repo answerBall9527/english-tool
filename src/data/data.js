@@ -100,7 +100,7 @@ export const articles = [
         audioUrl: "audio/lesson2/7.mp3"
       },
       {
-        english: "'It's raining again.'" ,
+        english: "'It's raining again.'",
         audioUrl: "audio/lesson2/8.mp3"
       },
       {
@@ -116,7 +116,7 @@ export const articles = [
         audioUrl: "audio/lesson2/11.mp3"
       },
       {
-        english: "'I'm coming to see you.'" ,
+        english: "'I'm coming to see you.'",
         audioUrl: "audio/lesson2/12.mp3"
       },
       {
@@ -128,8 +128,12 @@ export const articles = [
         audioUrl: "audio/lesson2/14.mp3"
       },
       {
-        english: "'Having breakfast or lunch?'" ,
+        english: "'I'm having breakfast,' I repeated.",
         audioUrl: "audio/lesson2/15.mp3"
+      },
+      {
+        english: "'Dear me,' she said. 'Do you always get up so late? It's one o'clock!'",
+        audioUrl: "audio/lesson2/16.mp3"
       }
     ]
   },
